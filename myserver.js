@@ -12,4 +12,4 @@ app.get('/test',function(req,res)
 {
     res.send('Hello test!');
 });
-var server=app.listen(3000,function() {});
+var server=app.listen(port,function() {});
